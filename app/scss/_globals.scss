@@ -1,0 +1,32 @@
+body{
+    box-sizing: border-box;
+    font-size: 1reù;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.arrow{
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    transform: rotate(135deg);
+    margin-left: 0.4rem;
+    margin-bottom: 0.1875rem;
+}

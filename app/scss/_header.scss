@@ -1,0 +1,86 @@
+.header{
+    display: flex;
+    padding: 17px 47px 0px 48px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    
+    &__logo{
+        margin-right: 1.6rem;
+    }
+
+    &__dropdown{
+        margin-top: 0.5rem;
+
+        &-item{
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        &-item:last-child{
+            margin-right: 18rem;
+        }
+    }
+
+    &__search{
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+        padding: 16px 62px 13px 12px;
+        width: 14.875rem;
+        height: 2.25rem;
+        
+        border: 1.2px solid lightgray;
+        border-radius: 8px;
+
+        &:focus{
+            outline: none;
+            border: 1px solid #f0efed;
+        }
+    }
+
+    &__signIn{
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+        width: 70px;
+        height: 32px;
+
+        border: none;
+        background: transparent;
+        font-weight: 600;
+        cursor: pointer;
+
+        &:hover{
+            color: #000000;
+            background:#f0efed;
+            border-radius: 8px;
+            text-decoration: underline;
+        }
+
+        &:active{
+            color: $darkgray1;
+            background-color: transparent;
+        }
+    }
+
+    &__signUp{
+        margin-bottom: 0.5rem;
+        width: 70px;
+        height: 32px;
+
+        border: 1px solid $darkgray1;
+        border-radius: 8px;
+        background: transparent;
+        font-weight: 600;
+        cursor: pointer;
+
+        &:hover{
+            color: #000000;
+            background:#f0efed;
+            border-radius: 8px;
+        }
+
+        &:active{
+            color: $darkgray1;
+            background-color: transparent;
+        }
+    }
+}
